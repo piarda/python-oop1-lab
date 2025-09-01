@@ -1,5 +1,26 @@
 # Object Oriented Programming Lab - Bookstore 
 
+This project models a simple bookstore system that allows users to create and interact with two primary objects:
+
+Book: Represents an online book with attributes and behaviors.
+
+Coffee: Represents a coffee drink sold at the bookstore with size, price, and tipping functionality.
+
+---
+
+# Usage Example:
+from lib.book import Book
+from lib.coffee import Coffee
+
+my_book = Book("Python 101", 200)
+my_book.turn_page()  # Flipping the page...wow, you read fast!
+
+my_coffee = Coffee("Medium", 3.50)
+my_coffee.tip()  # This coffee is great, here’s a tip!
+print(my_coffee.price)  # 4.5
+
+---------
+
 This scenario should encompass all of the topics provided in the module. Now that you’ve delved into creating a new class in Python it is now time to practice this concept.
 
 ## The Scenario
